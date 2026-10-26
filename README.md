@@ -1,73 +1,110 @@
-# Hi, I'm Anees Ur Rehman! 👋
-### Data Engineer & AI Automation Consultant
+<h1 align="center">Hi, I'm Anees Ur Rehman</h1>
 
-I build intelligent, fully automated data pipelines and lead engines that eliminate manual operations and save businesses 20+ hours a week. I specialize in combining **Python**, scalable backend GIS/cloud scrapers, and orchestration tools (**n8n**) to turn messy public records and web data into clean, CRM-ready business intelligence.
+<p align="center">
+  <strong>Python Developer · Applied AI · Workflow Automation</strong><br>
+  Building AI assistants, document workflows, and tools that turn data into useful applications.
+</p>
 
----
-
-## 🚀 Featured Work
-
-### 🏢 Real Estate Acquisitions & Off-Market Lead Engine (Elevated Investment Group)
-*Automated data infrastructure for high-volume property investment firms.*
-
-*   **The Challenge:** Bypassing slow, manual county website lookups and fixing broken, incomplete public records (missing cities, unformatted names) for high-value tax-delinquent and pre-probate leads.
-*   **The Solution:** Engineered a custom Python data architecture that completely skips frontend web scraping by tapping directly into centralized state-level GIS databases. Built logic to programmatically strip out corporate entities, isolate high-value leads (Deceased/Life Estates), dynamically fix missing fields, and auto-format data into clean, CRM-ready files in under 45 seconds.
-*   **Result:** Transformed a 10-hour weekly manual VA process into a zero-touch, error-free automation pipeline.
-
-### 📈 E-Commerce Pricing & Margin Engine (DFS, Furniture Village, Sofology)
-*Zero-touch market intelligence pipeline for Shopify retailers.*
-
-*   **The Challenge:** Automating daily competitor pricing analysis across heavily bot-protected enterprise retail sites (Datadome, Cloudflare, PerimeterX) and performing complex "bundle math" for multi-item SKUs.
-*   **The Solution:** Engineered a highly concurrent web scraper using Python, Apify, Crawlee, and Camoufox. Designed an automated bridge via n8n to extract live Shopify costs via API, inject them into the crawler, and calculate dynamic margin analytics.
-*   **Result:** Transformed hours of manual CSV formatting into a 100% automated daily pricing dashboard synced directly to Google Drive.
-
-### 🤖 AI-Powered Job Application Automation System (Final Year Project)
-*Autonomous form-filling and intelligent workflow orchestration engine.*
-
-*   **The Challenge:** Navigating complex, multi-step website registration processes and dynamic job application portals (Greenhouse, Lever) without human intervention.
-*   **The Solution:** Developed an end-to-end automation engine using Python and Playwright. Integrated AI vision and language models to dynamically parse layout structures, interpret dynamic web forms, intelligently tailor CV data to matching parameters, and execute stateful browser interactions autonomously.
-*   **Result:** Showcased at the UET Job Fair; significantly reduced manual input bottlenecks for high-volume data-entry workflows.
-
-### 🍔 Food Delivery Autonomous Engine (Uber Eats, Lieferando, Wolt)
-*Automated data extraction pipeline for the global food delivery market.*
-
-*   **The Challenge:** Scraping thousands of dynamic, location-based restaurant records and menus while bypassing aggressive anti-bot protections.
-*   **The Solution:** Built a hybrid Playwright + n8n system that extracts live menu pricing, standardizes disparate platform data using GPT-4o-Mini, and syncs it to a centralized Google Sheets CRM in real-time.
-*   **Result:** 100% uptime with zero manual data entry, enabling multi-location ghost kitchens to monitor competitor pricing seamlessly.
-
-### 📊 Time-Series Financial Predictive Modeling
-*Machine learning pipeline for historical time-series forecasting.*
-
-*   **The Challenge:** Handling noisy historical data to accurately predict daily asset price movements.
-*   **The Solution:** Implemented a Transformer-based deep learning model in Python to analyze complex historical data sequences. Tuned hyperparameters and tracked performance using precise evaluation metrics like MAE and RMSE.
-*   **Result:** Delivered a robust, mathematically sound forecasting pipeline optimized for time-series data analysis.
-
-### 📧 [Gmail Automation Assistant](https://github.com/Anees99/Generative-AI/tree/main/Gmail%20Automation%20Asistant) & 🍽️ [WhatsApp Restaurant AI Agent](https://github.com/Anees99/Generative-AI/tree/main/n8n%20Workflows/Automation%20of%20Restaurant%20Reservations%20with%20AI%20on%20WhatsApp%20and%20Google%20Sheets)
-*Smart AI Agents that manage communications so you don't have to.*
-
-*   **The Setup:** Deployed LangChain, Python, and OpenAI/Groq to build auto-summarizing inbox assistants and full-cycle reservation systems running entirely on WhatsApp.
-*   **The Logic:** Built to handle complex business rules, such as tracking multi-turn conversation history and executing database updates without human input.
+<p align="center">
+  <a href="mailto:anisshewa@gmail.com">Email</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/anees-ur-rehman-aur/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://wa.me/message/B6JIMZYDM7SDM1">WhatsApp</a> &nbsp;·&nbsp;
+  <a href="#selected-projects">Explore my work</a>
+</p>
 
 ---
 
-## 🛠 Tech Stack
-*   **Data Engineering & GIS:** Python, Geopandas, Pandas, Apify SDK, Crawlee, Playwright, Camoufox, Regex, PDF Text Parsing
-*   **Workflow Orchestration:** n8n, Make.com, Zapier
-*   **AI & LLMs:** LangChain, OpenAI (GPT-4o), Groq, Llama 3, Custom RAG Architectures
-*   **Databases & APIs:** Supabase, PostgreSQL, Pinecone (VectorDB), Shopify API, Google Workspace APIs
+## About me
+
+I'm a Computer Systems Engineering graduate from **UET Peshawar (October 2026)**, based in Pakistan. My work spans generative AI, retrieval-augmented generation, NLP, browser automation, and API integration.
+
+I gained hands-on experience during a **Generative AI internship at the National Center of Artificial Intelligence (NCAI)** and an **NLP / Machine Learning internship at AptechSOFT**. Through freelance projects, I've also built web-data collection and business automation workflows.
+
+My focus is practical engineering: connecting models to useful tools, validating their outputs, handling failures, and making results easy to inspect.
+
+## Selected projects
+
+### 01 · AgriResearch AI
+**Agricultural research assistance with retrieval and data analysis**
+
+A research prototype combining LangGraph task routing, semantic and BM25 retrieval, agricultural documents, and validated Pandas calculations.
+
+- Source metadata and file hashes make evidence traceable.
+- Evaluation compares semantic, hybrid, and lexical retrieval.
+- Includes documented failure cases, scope checks, and **54 passing automated tests** in the recorded local run.
+
+**Python · LangGraph · FAISS · Sentence Transformers · Pandas · Streamlit**
+
+[Repository](https://github.com/Anees99/AgriResearch-AI) · [Evaluation](https://github.com/Anees99/AgriResearch-AI/blob/main/evaluation/RESULTS.md) · [Architecture](https://github.com/Anees99/AgriResearch-AI/blob/main/docs/ARCHITECTURE.md)
+
+### 02 · Translation Review Lab
+**Translation score proposals with evidence checks and human review**
+
+A prototype for validating rubric-based score proposals, preserving human overrides, and measuring agreement with reference scores.
+
+- Checks score ranges, required criteria, and verbatim evidence quotes.
+- Records proposal provenance and human decisions in SQLite.
+- Includes a local Ollama adapter, calibration metrics, and **18 automated tests**.
+
+**Python · Structured outputs · SQLite · Evaluation · REST API**
+
+[Repository](https://github.com/Anees99/Translation-Review-Lab) · [API guide](https://github.com/Anees99/Translation-Review-Lab/blob/main/docs/API.md) · [CI results](https://github.com/Anees99/Translation-Review-Lab/actions)
+
+### 03 · Speech Assessment Pipeline
+**Audio intake, reliable processing, and transcription review**
+
+A short-audio processing prototype with WAV validation, a persistent job queue, and an optional Azure Speech adapter.
+
+- Uses leased jobs, bounded retries, and stale-worker protection.
+- Routes poor audio and uncertain transcripts for human review.
+- Includes **31 automated tests** covering audio checks, queue behavior, and provider contracts.
+
+**Python · Audio processing · SQLite · Azure Speech adapter · REST API**
+
+[Repository](https://github.com/Anees99/Speech-Assessment-Pipeline) · [API guide](https://github.com/Anees99/Speech-Assessment-Pipeline/blob/main/docs/API.md) · [CI results](https://github.com/Anees99/Speech-Assessment-Pipeline/actions)
+
+> These three projects are independent portfolio prototypes. The assessment demos use synthetic fixtures; live Ollama and Azure calls remain unverified. Test results demonstrate software behavior, not validated examination accuracy or production deployment.
+
+## More work
+
+| Project | What it explores | Main tools |
+| --- | --- | --- |
+| [scraprime](https://github.com/Anees99/scraprime) | Reusable web fetching, contextual parsing, and webhook integration | Python, browser automation |
+| [AI Job Search & Resume Tailoring](https://github.com/Anees99/AI_Job) | Job matching, resume generation, and application tracking; final-year project | Python, Gemini, Playwright, SQLite |
+| [AI Email Workflow](https://github.com/Anees99/AI-Email-Workflow-in-n8n) | Email intent classification, CRM routing, validation, and human-review paths | n8n, LLMs, PostgreSQL, HubSpot |
+| [Generative AI collection](https://github.com/Anees99/Generative-AI) | Email assistants and conversational automation experiments | Python, LangChain, n8n |
+
+## What I can help with
+
+- **AI assistants & document workflows:** RAG, PDF extraction, structured outputs, and application-facing APIs.
+- **Business automation:** email processing, browser workflows, and integrations between business tools.
+- **Data collection & reporting:** web extraction, cleaning, competitor-price monitoring, and spreadsheet pipelines.
+- **Evaluation & reliability:** test cases, output validation, review workflows, retries, and traceable results.
+
+## Technical toolkit
+
+| Area | Tools I work with |
+| --- | --- |
+| Languages & data | Python, SQL, JavaScript, Pandas, NumPy |
+| AI & retrieval | LangChain, LangGraph, Hugging Face Transformers, FAISS, embeddings |
+| NLP & ML | scikit-learn, PyTorch, BERT, T5, semantic similarity |
+| APIs & applications | FastAPI, Pydantic, REST APIs, Streamlit, SQLite |
+| Automation | Playwright, Selenium, n8n, Gmail API, Google Sheets integrations |
+| Development | Git, GitHub, automated testing; Docker fundamentals |
+
+## Background
+
+- **Generative AI Intern · NCAI:** AI agents, LangChain workflows, email automation, document retrieval, and browser automation.
+- **AI Intern — NLP / Machine Learning · AptechSOFT:** semantic matching, text summarization, and reusable NLP components.
+- **Freelance Python & AI Automation Developer:** client projects involving web scraping, API integration, and structured data workflows.
+- **BS Computer Systems Engineering · UET Peshawar:** completed October 2026.
 
 ---
 
-## 🎓 Background & Experience
-*   **Education:** B.S. in Computer Systems Engineering (8th Semester) | University of Engineering and Technology (UET), Peshawar.
-*   **Academic Foundations:** Completed FSc with a strong foundational score of 825/1200 marks.
-*   **Industrial Operations:** 6 months of hands-on maintenance experience at AJ Textile Mills Unit No.1 (Gadoon Amazai), bridging the gap between physical operational workflows and automated systems.
+### Let's build something useful
 
----
+Open to **Python development, AI application engineering, and automation projects**, as well as relevant AI engineering opportunities.
 
-## 📫 Let's Work Together
-I specialize in building production-ready automation systems and am currently open to high-level freelance projects and remote retainer contracts.
+Tell me what you're trying to build, which systems it needs to connect to, and what a successful result looks like.
 
-*   **Email:** anisshewa@gmail.com
-*   **WhatsApp:** [+92 313 9902046](https://wa.me/message/B6JIMZYDM7SDM1)
-*   **Location:** Swabi, KPK, Pakistan (Available for Global Remote Work)
+**[Email me](mailto:anisshewa@gmail.com)** · **[Connect on LinkedIn](https://www.linkedin.com/in/anees-ur-rehman-aur/)** · **[Message on WhatsApp](https://wa.me/message/B6JIMZYDM7SDM1)**
